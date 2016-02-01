@@ -8,10 +8,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Map_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Main View" id="BYZ-38-t0r" customClass="ViewController" customModule="Map_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -37,7 +37,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Map"/>
                                 <connections>
-                                    <segue destination="bp4-lZ-FwO" kind="push" id="mks-m1-ikD"/>
+                                    <segue destination="bp4-lZ-FwO" kind="push" identifier="MapViewSegue" id="CKC-mW-bl2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7P-JE-YlH">
@@ -71,7 +71,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ian-jr-EWx" firstAttribute="leading" secondItem="R7P-JE-YlH" secondAttribute="leading" id="22f-Zj-xi2"/>
                             <constraint firstItem="3EV-IG-dFw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9Np-J2-JP1"/>
@@ -102,7 +101,7 @@
                             <constraint firstItem="SGz-fK-gHX" firstAttribute="leading" secondItem="viu-im-c6k" secondAttribute="leading" id="zRf-GO-ADM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="1UW-Bn-hC6"/>
+                    <navigationItem key="navigationItem" title="Lumenilaire Main Page" id="1UW-Bn-hC6"/>
                     <connections>
                         <outlet property="btnColorControl" destination="ian-jr-EWx" id="TiM-bV-H6s"/>
                         <outlet property="btnMap" destination="Zjz-DX-Uvy" id="2wT-Lx-kbE"/>
@@ -117,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="574" y="305"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View-->
         <scene sceneID="bgA-B2-btb">
             <objects>
-                <viewController id="bp4-lZ-FwO" sceneMemberID="viewController">
+                <viewController title="Map View" id="bp4-lZ-FwO" customClass="MapViewController" customModule="Map_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C11-m6-OP8"/>
                         <viewControllerLayoutGuide type="bottom" id="YNI-yk-0ud"/>
@@ -128,7 +127,6 @@
                     <view key="view" contentMode="scaleToFill" id="bH7-kV-8jp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="M0H-Z5-vYS"/>
                 </viewController>
@@ -147,7 +145,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="b6z-Jd-9Dd"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wMl-Go-27U"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PnN-RD-uTB" userLabel="First Responder" sceneMemberID="firstResponder"/>
