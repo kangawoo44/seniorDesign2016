@@ -15,6 +15,15 @@
 		3C55CCB71C6005950020D4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C55CCB51C6005950020D4AC /* LaunchScreen.storyboard */; };
 		3C55CCC21C6005950020D4AC /* Map_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55CCC11C6005950020D4AC /* Map_PrototypeTests.swift */; };
 		3C55CCCD1C6005950020D4AC /* Map_PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55CCCC1C6005950020D4AC /* Map_PrototypeUITests.swift */; };
+		3C7FFACC1C62AC44000679C4 /* Scenes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FFAC81C62AC44000679C4 /* Scenes+CoreDataProperties.swift */; };
+		3C7FFACD1C62AC44000679C4 /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FFAC91C62AC44000679C4 /* Scenes.swift */; };
+		3C7FFACE1C62AC44000679C4 /* Lights+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FFACA1C62AC44000679C4 /* Lights+CoreDataProperties.swift */; };
+		3C7FFACF1C62AC44000679C4 /* Lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FFACB1C62AC44000679C4 /* Lights.swift */; };
+		3CE1300B1C6992F3002C0F62 /* LightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1300A1C6992F3002C0F62 /* LightTableViewCell.swift */; };
+		3CE130121C69AD36002C0F62 /* MasterMap+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE130101C69AD36002C0F62 /* MasterMap+CoreDataProperties.swift */; };
+		3CE130131C69AD36002C0F62 /* MasterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE130111C69AD36002C0F62 /* MasterMap.swift */; };
+		3CE130171C69B9B9002C0F62 /* addLightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE130161C69B9B9002C0F62 /* addLightsViewController.swift */; };
+		3CF657CB1C600CDE0028464F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF657CA1C600CDE0028464F /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,16 @@
 		3C55CCC81C6005950020D4AC /* Map_PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Map_PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C55CCCC1C6005950020D4AC /* Map_PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_PrototypeUITests.swift; sourceTree = "<group>"; };
 		3C55CCCE1C6005950020D4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7FFAC81C62AC44000679C4 /* Scenes+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Scenes+CoreDataProperties.swift"; path = "../../../../Shared/Desktop/Map_Prototype/Map_Prototype/Scenes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C7FFAC91C62AC44000679C4 /* Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Scenes.swift; path = ../../../../Shared/Desktop/Map_Prototype/Map_Prototype/Scenes.swift; sourceTree = "<group>"; };
+		3C7FFACA1C62AC44000679C4 /* Lights+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Lights+CoreDataProperties.swift"; path = "../../../../Shared/Desktop/Map_Prototype/Map_Prototype/Lights+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C7FFACB1C62AC44000679C4 /* Lights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Lights.swift; path = ../../../../Shared/Desktop/Map_Prototype/Map_Prototype/Lights.swift; sourceTree = "<group>"; };
+		3CE1300A1C6992F3002C0F62 /* LightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightTableViewCell.swift; path = ../../../../Shared/Desktop/Map_Prototype/Map_Prototype/LightTableViewCell.swift; sourceTree = "<group>"; };
+		3CE130101C69AD36002C0F62 /* MasterMap+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MasterMap+CoreDataProperties.swift"; path = "../../../../Shared/Desktop/Map_Prototype/Map_Prototype/MasterMap+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3CE130111C69AD36002C0F62 /* MasterMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterMap.swift; path = ../../../../Shared/Desktop/Map_Prototype/Map_Prototype/MasterMap.swift; sourceTree = "<group>"; };
+		3CE130161C69B9B9002C0F62 /* addLightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addLightsViewController.swift; path = ../../../../Shared/Desktop/Map_Prototype/Map_Prototype/addLightsViewController.swift; sourceTree = "<group>"; };
+		3CE130391C6A10E6002C0F62 /* Map_Prototype 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Map_Prototype 2.xcdatamodel"; sourceTree = "<group>"; };
+		3CF657CA1C600CDE0028464F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../../Shared/Desktop/Map_Prototype/Map_Prototype/MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +118,9 @@
 		3C55CCA81C6005940020D4AC /* Map_Prototype */ = {
 			isa = PBXGroup;
 			children = (
-				3C55CCA91C6005940020D4AC /* AppDelegate.swift */,
-				3C55CCAB1C6005940020D4AC /* ViewController.swift */,
-				3C55CCAD1C6005950020D4AC /* Main.storyboard */,
-				3C55CCB31C6005950020D4AC /* Assets.xcassets */,
-				3C55CCB51C6005950020D4AC /* LaunchScreen.storyboard */,
-				3C55CCB81C6005950020D4AC /* Info.plist */,
-				3C55CCB01C6005950020D4AC /* Map_Prototype.xcdatamodeld */,
+				3C7FFAD11C62AC6B000679C4 /* Data Model */,
+				3CE130071C696F73002C0F62 /* Main */,
+				3C7FFAD21C62AC84000679C4 /* View Controllers */,
 			);
 			path = Map_Prototype;
 			sourceTree = "<group>";
@@ -126,6 +141,43 @@
 				3C55CCCE1C6005950020D4AC /* Info.plist */,
 			);
 			path = Map_PrototypeUITests;
+			sourceTree = "<group>";
+		};
+		3C7FFAD11C62AC6B000679C4 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CE130101C69AD36002C0F62 /* MasterMap+CoreDataProperties.swift */,
+				3CE130111C69AD36002C0F62 /* MasterMap.swift */,
+				3C7FFAC81C62AC44000679C4 /* Scenes+CoreDataProperties.swift */,
+				3C7FFAC91C62AC44000679C4 /* Scenes.swift */,
+				3C7FFACA1C62AC44000679C4 /* Lights+CoreDataProperties.swift */,
+				3C7FFACB1C62AC44000679C4 /* Lights.swift */,
+				3C55CCB01C6005950020D4AC /* Map_Prototype.xcdatamodeld */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		3C7FFAD21C62AC84000679C4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C55CCAB1C6005940020D4AC /* ViewController.swift */,
+				3CF657CA1C600CDE0028464F /* MapViewController.swift */,
+				3CE1300A1C6992F3002C0F62 /* LightTableViewCell.swift */,
+				3CE130161C69B9B9002C0F62 /* addLightsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3CE130071C696F73002C0F62 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C55CCA91C6005940020D4AC /* AppDelegate.swift */,
+				3C55CCAD1C6005950020D4AC /* Main.storyboard */,
+				3C55CCB31C6005950020D4AC /* Assets.xcassets */,
+				3C55CCB51C6005950020D4AC /* LaunchScreen.storyboard */,
+				3C55CCB81C6005950020D4AC /* Info.plist */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +311,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE1300B1C6992F3002C0F62 /* LightTableViewCell.swift in Sources */,
+				3C7FFACE1C62AC44000679C4 /* Lights+CoreDataProperties.swift in Sources */,
+				3CE130171C69B9B9002C0F62 /* addLightsViewController.swift in Sources */,
+				3C7FFACD1C62AC44000679C4 /* Scenes.swift in Sources */,
 				3C55CCB21C6005950020D4AC /* Map_Prototype.xcdatamodeld in Sources */,
 				3C55CCAC1C6005940020D4AC /* ViewController.swift in Sources */,
+				3CE130121C69AD36002C0F62 /* MasterMap+CoreDataProperties.swift in Sources */,
+				3C7FFACF1C62AC44000679C4 /* Lights.swift in Sources */,
+				3C7FFACC1C62AC44000679C4 /* Scenes+CoreDataProperties.swift in Sources */,
+				3CE130131C69AD36002C0F62 /* MasterMap.swift in Sources */,
 				3C55CCAA1C6005940020D4AC /* AppDelegate.swift in Sources */,
+				3CF657CB1C600CDE0028464F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +549,7 @@
 				3C55CCD31C6005950020D4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C55CCD41C6005950020D4AC /* Build configuration list for PBXNativeTarget "Map_PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +558,7 @@
 				3C55CCD61C6005950020D4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C55CCD71C6005950020D4AC /* Build configuration list for PBXNativeTarget "Map_PrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +567,7 @@
 				3C55CCD91C6005950020D4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -511,9 +575,10 @@
 		3C55CCB01C6005950020D4AC /* Map_Prototype.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				3CE130391C6A10E6002C0F62 /* Map_Prototype 2.xcdatamodel */,
 				3C55CCB11C6005950020D4AC /* Map_Prototype.xcdatamodel */,
 			);
-			currentVersion = 3C55CCB11C6005950020D4AC /* Map_Prototype.xcdatamodel */;
+			currentVersion = 3CE130391C6A10E6002C0F62 /* Map_Prototype 2.xcdatamodel */;
 			path = Map_Prototype.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

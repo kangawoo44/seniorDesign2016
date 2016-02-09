@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Lights" representedClassName=".Lights" syncable="YES">
+        <attribute name="lightID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lightName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="masterMap" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MasterMap" inverseName="lights" inverseEntity="MasterMap" syncable="YES"/>
+        <relationship name="scenes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Scenes" inverseName="lights" inverseEntity="Scenes" syncable="YES"/>
+    </entity>
+    <entity name="MasterMap" representedClassName=".MasterMap" syncable="YES">
+        <relationship name="lights" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lights" inverseName="masterMap" inverseEntity="Lights" syncable="YES"/>
+    </entity>
+    <entity name="Scenes" representedClassName=".Scenes" syncable="YES">
+        <relationship name="lights" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lights" inverseName="scenes" inverseEntity="Lights" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Lights" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Scenes" positionX="117" positionY="-18" width="128" height="58"/>
+        <element name="MasterMap" positionX="-65" positionY="-99" width="128" height="58"/>
+    </elements>
 </model>
